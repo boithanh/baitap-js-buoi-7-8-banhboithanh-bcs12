@@ -101,7 +101,7 @@ document.getElementById("btnSoChanCuoi").onclick = () => {
   else {
     document.getElementById(
       "kqSoChanCuoi"
-    ).innerHTML = "Rất tiếc đã có lỗi xảy ra,vui lòng thử lại";
+    ).innerHTML = `<p><i class='fa-solid fa-shuffle me-3'></i>Có lỗi xảy ra, vui lòng thử lại!!</p>`;
   }
 }
 
@@ -197,12 +197,6 @@ document.getElementById("btnDemNguyen").onclick = () => {
   }
   theDiv.innerHTML = `<p><i class='fa-solid fa-shuffle me-3'></i>Số Nguyên: ${dem}</p>`;
 }
-
-
-
-
-
-
 
 // Bài 10 - So sánh số lượng số âm và số dương
 document.getElementById("btnSoSanh").onclick = () => {
